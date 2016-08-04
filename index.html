@@ -16,7 +16,7 @@
 
 <!-- General and theme style sheets -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.1.0/css/reveal.css">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.1.0/css/theme/simple.css" id="theme">
+<link rel="stylesheet" href="sky2.css" id="theme">
 
 <!-- If the query includes 'print-pdf', include the PDF print sheet -->
 <script>
@@ -1134,13 +1134,11 @@ th {
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
-html {
-  font-size: 10px;
+html {  
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 body {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 13px;
   line-height: 1.42857143;
   color: #000;
   background-color: #fff;
@@ -13141,8 +13139,7 @@ SWD/H3Zf3Blwyoz2AAAAAElFTkSuQmCC
 <div class="prompt input_prompt">In&nbsp;[63]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">plot</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">,</span> <span class="s1">&#39;x&#39;</span><span class="p">);</span>
-<span class="n">plot</span><span class="p">(</span><span class="n">x0</span><span class="p">,</span> <span class="n">p5</span><span class="p">(</span><span class="n">x0</span><span class="p">));</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">plot</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">,</span> <span class="s1">&#39;x&#39;</span><span class="p">);</span><span class="n">plot</span><span class="p">(</span><span class="n">x0</span><span class="p">,</span> <span class="n">p5</span><span class="p">(</span><span class="n">x0</span><span class="p">));</span>
 <span class="n">norm</span><span class="p">(</span><span class="n">y</span><span class="o">-</span><span class="n">p5</span><span class="p">(</span><span class="n">x</span><span class="p">))</span>
 </pre></div>
 
@@ -13611,13 +13608,7 @@ dqWUCjEa2JVSKsRoYFdKqRCjgV0ppUKMBnallAox/x9kn9XPCyZHwwAAAABJRU5ErkJggg==
 <div class="prompt input_prompt">In&nbsp;[60]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">x2</span> <span class="o">=</span><span class="n">linspace</span><span class="p">(</span><span class="o">-</span><span class="mi">5</span><span class="p">,</span><span class="mi">5</span><span class="p">,</span><span class="mi">25</span><span class="p">)</span>
-<span class="n">error2</span> <span class="o">=</span> <span class="n">random</span><span class="o">.</span><span class="n">rand</span><span class="p">(</span><span class="n">x2</span><span class="o">.</span><span class="n">shape</span><span class="p">[</span><span class="mi">0</span><span class="p">])</span><span class="o">*</span><span class="mi">10</span><span class="o">-</span><span class="mi">5</span>
-<span class="n">y2</span> <span class="o">=</span> <span class="mi">5</span><span class="o">*</span><span class="n">x2</span><span class="o">+</span><span class="mi">3</span><span class="o">+</span><span class="n">error2</span>
-<span class="n">plot</span><span class="p">(</span><span class="n">x2</span><span class="p">,</span><span class="n">y2</span><span class="p">,</span> <span class="s1">&#39;o&#39;</span><span class="p">)</span>
-<span class="n">plot</span><span class="p">(</span><span class="n">x0</span><span class="p">,</span> <span class="n">p1</span><span class="p">(</span><span class="n">x0</span><span class="p">))</span>
-<span class="n">plot</span><span class="p">(</span><span class="n">x0</span><span class="p">,</span> <span class="n">p20</span><span class="p">(</span><span class="n">x0</span><span class="p">));</span>
-<span class="n">plt</span><span class="o">.</span><span class="n">axis</span><span class="p">([</span><span class="o">-</span><span class="mi">5</span><span class="p">,</span> <span class="mi">5</span><span class="p">,</span> <span class="o">-</span><span class="mi">30</span><span class="p">,</span> <span class="mi">30</span><span class="p">]);</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">plot</span><span class="p">(</span><span class="n">x2</span><span class="p">,</span><span class="n">y2</span><span class="p">,</span> <span class="s1">&#39;o&#39;</span><span class="p">);</span><span class="n">plot</span><span class="p">(</span><span class="n">x0</span><span class="p">,</span> <span class="n">p1</span><span class="p">(</span><span class="n">x0</span><span class="p">));</span><span class="n">plot</span><span class="p">(</span><span class="n">x0</span><span class="p">,</span> <span class="n">p20</span><span class="p">(</span><span class="n">x0</span><span class="p">));</span><span class="n">plt</span><span class="o">.</span><span class="n">axis</span><span class="p">([</span><span class="o">-</span><span class="mi">5</span><span class="p">,</span> <span class="mi">5</span><span class="p">,</span> <span class="o">-</span><span class="mi">30</span><span class="p">,</span> <span class="mi">30</span><span class="p">]);</span>
 <span class="n">norm</span><span class="p">(</span><span class="n">y2</span><span class="o">-</span><span class="n">p20</span><span class="p">(</span><span class="n">x2</span><span class="p">)),</span> <span class="n">norm</span><span class="p">(</span><span class="n">y2</span><span class="o">-</span><span class="n">p1</span><span class="p">(</span><span class="n">x2</span><span class="p">))</span>
 </pre></div>
 
@@ -13951,13 +13942,22 @@ SGAXQgg/I4FdCCH8jAR2IYTwMxLYhRDCz/w/kQEx/0N/ECYAAAAASUVORK5CYII=
 <h1 id="You-cannot-learn-from-textbook">You cannot learn from textbook<a class="anchor-link" href="#You-cannot-learn-from-textbook">&#182;</a></h1>
 </div>
 </div>
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h1 id="Reinforcement-Learning">Reinforcement Learning<a class="anchor-link" href="#Reinforcement-Learning">&#182;</a></h1>
+</div>
+</div>
 </div></section><section>
 <div class="cell border-box-sizing text_cell rendered">
 <div class="prompt input_prompt">
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="Reinforcement-Learning:-expectation-vs.-exploration">Reinforcement Learning: expectation vs. exploration<a class="anchor-link" href="#Reinforcement-Learning:-expectation-vs.-exploration">&#182;</a></h1>
+<h1 id="expectation">expectation<a class="anchor-link" href="#expectation">&#182;</a></h1><h1 id="vs.">vs.<a class="anchor-link" href="#vs.">&#182;</a></h1><h1 id="exploration">exploration<a class="anchor-link" href="#exploration">&#182;</a></h1>
 </div>
 </div>
 </div></section><section>
