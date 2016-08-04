@@ -121,7 +121,8 @@ body {
  * IMAGES
  *********************************************/
 .reveal section img {
-  margin: 15px 0px;
+  margin-left: auto;
+  margin-right: auto  
   background: rgba(215, 255, 215, 0.1);
   border: none; /*4px solid #333333;*/
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
@@ -130,8 +131,32 @@ body {
   -ms-transition: all .2s linear;
   -o-transition: all .2s linear;
   transition: all .2s linear; }
+div {
+    overflow: visible;
+    overflow-x: visible;
+    overflow-y: visible;
+    height: auto;
+}
+  
+.zoom_img img {
+    float: left;
+    margin-left: auto;
+}
+div.inner_cell {
+    overflow: visible;
+    overflow-x: visible;
+    overflow-y: visible;
+    height: auto;
+}
 
+.rendered_html {
+    overflow: visible;
+    overflow-x: visible;
+    overflow-y: visible;
+    height: auto;
+}
 .zoom_img  img:hover {
+  display: block;
   background: rgba(255, 255, 255, 1.0);
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.85); 
      -webkit-transform:scale(2.1); /* Safari and Chrome */
