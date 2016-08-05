@@ -8,26 +8,8 @@
  viewBox="0.00 0.00 629.00 63.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 59)">
 <title>Network</title>
-<!-- lasagne.layers.dense.DenseLayer object at 0x7fe0e0c7ebe0 -->
-<g id="node1" class="node"><title>lasagne.layers.dense.DenseLayer object at 0x7fe0e0c7ebe0</title>
-<polygon fill="none" stroke="none" points="621,-55 418,-55 418,-3.55271e-15 621,-3.55271e-15 621,-55"/>
-<polygon fill="#6ccf8d" stroke="none" points="426.5,-3.5 426.5,-50.5 564.5,-50.5 564.5,-3.5 426.5,-3.5"/>
-<polygon fill="none" stroke="black" points="426.5,-3.5 426.5,-50.5 564.5,-50.5 564.5,-3.5 426.5,-3.5"/>
-<text text-anchor="start" x="461" y="-38.3" font-family="Times,serif" font-size="14.00">DenseLayer</text>
-<text text-anchor="start" x="459" y="-23.3" font-family="Times,serif" font-size="14.00">num_units: 1</text>
-<text text-anchor="start" x="427.5" y="-8.3" font-family="Times,serif" font-size="14.00">Output shape: (None, 1)</text>
-<polygon fill="#ffff00" stroke="none" points="564.5,-3.5 564.5,-50.5 613.5,-50.5 613.5,-3.5 564.5,-3.5"/>
-<polygon fill="none" stroke="black" points="564.5,-3.5 564.5,-50.5 613.5,-50.5 613.5,-3.5 564.5,-3.5"/>
-<text text-anchor="start" x="565.5" y="-23.3" font-family="Times,serif" font-size="14.00">sigmoid</text>
-</g>
-<!-- lasagne.layers.input.InputLayer object at 0x7fe0e0c7edd8 -->
-<g id="node2" class="node"><title>lasagne.layers.input.InputLayer object at 0x7fe0e0c7edd8</title>
-<polygon fill="#a2cece" stroke="black" points="0,-8.5 0,-46.5 152,-46.5 152,-8.5 0,-8.5"/>
-<text text-anchor="middle" x="76" y="-31.3" font-family="Times,serif" font-size="14.00">InputLayer</text>
-<text text-anchor="middle" x="76" y="-16.3" font-family="Times,serif" font-size="14.00">Output shape: (None, 2)</text>
-</g>
-<!-- lasagne.layers.dense.DenseLayer object at 0x7fe0e0c7ee48 -->
-<g id="node3" class="node"><title>lasagne.layers.dense.DenseLayer object at 0x7fe0e0c7ee48</title>
+<!-- lasagne.layers.dense.DenseLayer object at 0x7f534abc3710 -->
+<g id="node1" class="node"><title>lasagne.layers.dense.DenseLayer object at 0x7f534abc3710</title>
 <polygon fill="none" stroke="none" points="382,-55 188,-55 188,-3.55271e-15 382,-3.55271e-15 382,-55"/>
 <polygon fill="#6ccf8d" stroke="none" points="196,-3.5 196,-50.5 334,-50.5 334,-3.5 196,-3.5"/>
 <polygon fill="none" stroke="black" points="196,-3.5 196,-50.5 334,-50.5 334,-3.5 196,-3.5"/>
@@ -38,15 +20,33 @@
 <polygon fill="none" stroke="black" points="334,-3.5 334,-50.5 374,-50.5 374,-3.5 334,-3.5"/>
 <text text-anchor="start" x="335" y="-23.3" font-family="Times,serif" font-size="14.00">rectify</text>
 </g>
-<!-- lasagne.layers.input.InputLayer object at 0x7fe0e0c7edd8&#45;&gt;lasagne.layers.dense.DenseLayer object at 0x7fe0e0c7ee48 -->
-<g id="edge1" class="edge"><title>lasagne.layers.input.InputLayer object at 0x7fe0e0c7edd8&#45;&gt;lasagne.layers.dense.DenseLayer object at 0x7fe0e0c7ee48</title>
-<path fill="none" stroke="black" d="M152.024,-27.5C160.424,-27.5 169.094,-27.5 177.79,-27.5"/>
-<polygon fill="black" stroke="black" points="177.996,-31.0001 187.996,-27.5 177.996,-24.0001 177.996,-31.0001"/>
+<!-- lasagne.layers.dense.DenseLayer object at 0x7f534abc3e80 -->
+<g id="node2" class="node"><title>lasagne.layers.dense.DenseLayer object at 0x7f534abc3e80</title>
+<polygon fill="none" stroke="none" points="621,-55 418,-55 418,-3.55271e-15 621,-3.55271e-15 621,-55"/>
+<polygon fill="#6ccf8d" stroke="none" points="426.5,-3.5 426.5,-50.5 564.5,-50.5 564.5,-3.5 426.5,-3.5"/>
+<polygon fill="none" stroke="black" points="426.5,-3.5 426.5,-50.5 564.5,-50.5 564.5,-3.5 426.5,-3.5"/>
+<text text-anchor="start" x="461" y="-38.3" font-family="Times,serif" font-size="14.00">DenseLayer</text>
+<text text-anchor="start" x="459" y="-23.3" font-family="Times,serif" font-size="14.00">num_units: 1</text>
+<text text-anchor="start" x="427.5" y="-8.3" font-family="Times,serif" font-size="14.00">Output shape: (None, 1)</text>
+<polygon fill="#ffff00" stroke="none" points="564.5,-3.5 564.5,-50.5 613.5,-50.5 613.5,-3.5 564.5,-3.5"/>
+<polygon fill="none" stroke="black" points="564.5,-3.5 564.5,-50.5 613.5,-50.5 613.5,-3.5 564.5,-3.5"/>
+<text text-anchor="start" x="565.5" y="-23.3" font-family="Times,serif" font-size="14.00">sigmoid</text>
 </g>
-<!-- lasagne.layers.dense.DenseLayer object at 0x7fe0e0c7ee48&#45;&gt;lasagne.layers.dense.DenseLayer object at 0x7fe0e0c7ebe0 -->
-<g id="edge2" class="edge"><title>lasagne.layers.dense.DenseLayer object at 0x7fe0e0c7ee48&#45;&gt;lasagne.layers.dense.DenseLayer object at 0x7fe0e0c7ebe0</title>
+<!-- lasagne.layers.dense.DenseLayer object at 0x7f534abc3710&#45;&gt;lasagne.layers.dense.DenseLayer object at 0x7f534abc3e80 -->
+<g id="edge2" class="edge"><title>lasagne.layers.dense.DenseLayer object at 0x7f534abc3710&#45;&gt;lasagne.layers.dense.DenseLayer object at 0x7f534abc3e80</title>
 <path fill="none" stroke="black" d="M382.245,-27.5C390.685,-27.5 399.271,-27.5 407.816,-27.5"/>
 <polygon fill="black" stroke="black" points="407.818,-31.0001 417.818,-27.5 407.818,-24.0001 407.818,-31.0001"/>
+</g>
+<!-- lasagne.layers.input.InputLayer object at 0x7f534abc37b8 -->
+<g id="node3" class="node"><title>lasagne.layers.input.InputLayer object at 0x7f534abc37b8</title>
+<polygon fill="#a2cece" stroke="black" points="0,-8.5 0,-46.5 152,-46.5 152,-8.5 0,-8.5"/>
+<text text-anchor="middle" x="76" y="-31.3" font-family="Times,serif" font-size="14.00">InputLayer</text>
+<text text-anchor="middle" x="76" y="-16.3" font-family="Times,serif" font-size="14.00">Output shape: (None, 2)</text>
+</g>
+<!-- lasagne.layers.input.InputLayer object at 0x7f534abc37b8&#45;&gt;lasagne.layers.dense.DenseLayer object at 0x7f534abc3710 -->
+<g id="edge1" class="edge"><title>lasagne.layers.input.InputLayer object at 0x7f534abc37b8&#45;&gt;lasagne.layers.dense.DenseLayer object at 0x7f534abc3710</title>
+<path fill="none" stroke="black" d="M152.024,-27.5C160.424,-27.5 169.094,-27.5 177.79,-27.5"/>
+<polygon fill="black" stroke="black" points="177.996,-31.0001 187.996,-27.5 177.996,-24.0001 177.996,-31.0001"/>
 </g>
 </g>
 </svg>
