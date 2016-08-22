@@ -11829,6 +11829,18 @@ a.anchor-link {
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
+<h1 id="Educate-your-NN">Educate your NN<a class="anchor-link" href="#Educate-your-NN">&#182;</a></h1><blockquote><p>Education is the most powerful weapon which you can use to change the world.</p>
+<p>--Nelson Mandela</p>
+</blockquote>
+
+</div>
+</div>
+</div></section></section><section><section>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
 <h1 id="Neural-Network">Neural Network<a class="anchor-link" href="#Neural-Network">&#182;</a></h1><h1 id="From-$1$-to-$2$">From $1$ to $2$<a class="anchor-link" href="#From-$1$-to-$2$">&#182;</a></h1>
 </div>
 </div>
@@ -11893,7 +11905,19 @@ a.anchor-link {
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="Learning-is-all-about-generalization">Learning is all about generalization<a class="anchor-link" href="#Learning-is-all-about-generalization">&#182;</a></h2><ul>
+<h1 id="Learning-is-all-about-generalization">Learning is all about generalization<a class="anchor-link" href="#Learning-is-all-about-generalization">&#182;</a></h1><blockquote><p>All generalizations are false, including this one.</p>
+<p>--Mark Twain</p>
+</blockquote>
+
+</div>
+</div>
+</div></section><section>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<ul>
 <li>1,2,3,4,?, ?</li>
 <li>1, 49, 100, 784, 1444, ?, 3364</li>
 </ul>
@@ -12038,7 +12062,7 @@ CC-BY-NC "For Creators", <a href="http://piapro.net/en_for_creators.html">http:/
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="Issues-(From-$1$-to-$2$I)">Issues (From $1$ to $2$I)<a class="anchor-link" href="#Issues-(From-$1$-to-$2$I)">&#182;</a></h1>
+<h1 id="Issues-(From-$1$-to-$2$)">Issues (From $1$ to $2$)<a class="anchor-link" href="#Issues-(From-$1$-to-$2$)">&#182;</a></h1>
 </div>
 </div>
 </div><div class="fragment">
@@ -12171,17 +12195,99 @@ CC-BY-NC "For Creators", <a href="http://piapro.net/en_for_creators.html">http:/
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
+<p>Start with simple network</p>
 <ul>
-<li>Start with simple network (e.g. one hidden layer)<ul>
-<li>try CNN for suitable input data</li>
+<li>e.g. one hidden layer</li>
+<li>Usually:<ul>
+<li>&lt;= 5 layers</li>
+<li>All relu excepet the top</li>
 </ul>
 </li>
-<li>Use relu all layers except the top one</li>
+<li>try CNN for suitable input data<ul>
+<li>two 3x3 kernel -&gt; pool</li>
+<li>one 5x5 kernel -&gt; pool</li>
+</ul>
+</li>
+</ul>
+
+</div>
+</div>
+</div></section><section>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<ul>
 <li>Use adam or sgd(with momentum)<ul>
-<li>default setting usually works fine    </li>
+<li>default setting works fine (for default networks)</li>
+<li>tune learning rate</li>
 </ul>
 </li>
-<li>preprocessing</li>
+</ul>
+
+</div>
+</div>
+</div></section><section>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h1 id="You-cannot-learn-from-textbook">You cannot learn from textbook<a class="anchor-link" href="#You-cannot-learn-from-textbook">&#182;</a></h1><blockquote><p>“We learn from failure, not from success!”</p>
+<p>--Bram Stoker, Dracula</p>
+</blockquote>
+
+</div>
+</div>
+</div></section><section>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>Think about the input data</p>
+<ul>
+<li>enough variety?</li>
+<li>preprocessing may help</li>
+<li>you need a lot of data</li>
+</ul>
+
+</div>
+</div>
+</div></section><section>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h1 id="The-10,000-Hour-Rule">The 10,000 Hour Rule<a class="anchor-link" href="#The-10,000-Hour-Rule">&#182;</a></h1><blockquote><p>“The master has failed more times than the beginner has even tried.”</p>
+<p>--Stephen McCranie</p>
+</blockquote>
+
+</div>
+</div>
+</div></section><section>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<ul>
+<li>data augmentation</li>
+<li>good hardware</li>
+<li>patient</li>
+</ul>
+
+</div>
+</div>
+</div></section><section>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<ul>
 <li>When overfitting, try:<ul>
 <li>dropout</li>
 <li>weight decay</li>
@@ -12189,6 +12295,19 @@ CC-BY-NC "For Creators", <a href="http://piapro.net/en_for_creators.html">http:/
 </ul>
 </li>
 </ul>
+
+</div>
+</div>
+</div></section><section>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<blockquote><p>The more constraints one imposes, the more one frees one’s self…</p>
+<p>the arbitrariness of the constraint serves only to obtain precision of execution.</p>
+<p>--Igor Stravinsky</p>
+</blockquote>
 
 </div>
 </div>
@@ -12230,18 +12349,6 @@ CC-BY-NC "For Creators", <a href="http://piapro.net/en_for_creators.html">http:/
 <div class="text_cell_render border-box-sizing rendered_html">
 <h2 id="Generative-Adversarial-Networks">Generative Adversarial Networks<a class="anchor-link" href="#Generative-Adversarial-Networks">&#182;</a></h2><blockquote><p>What I cannot create, I do not understand.</p>
 <p>--Richard Feynman</p>
-</blockquote>
-
-</div>
-</div>
-</div></section></section><section><section>
-<div class="cell border-box-sizing text_cell rendered">
-<div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="Educate-your-NN">Educate your NN<a class="anchor-link" href="#Educate-your-NN">&#182;</a></h1><blockquote><p>Education is the most powerful weapon which you can use to change the world.</p>
-<p>--Nelson Mandela</p>
 </blockquote>
 
 </div>
@@ -13492,58 +13599,9 @@ AAD4AOENAAAAAHyA8AYAAAAAPkB4AwAAAAAfILwBAAAAgA8Q3gAAAADABwhvAAAAAOADhDcAAAAA
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="Dropout">Dropout<a class="anchor-link" href="#Dropout">&#182;</a></h1><blockquote><p>The more constraints one imposes, the more one frees one’s self…</p>
-<p>the arbitrariness of the constraint serves only to obtain precision of execution.</p>
-<p>--Igor Stravinsky</p>
-</blockquote>
-
-</div>
-</div>
-</div></section></section><section><section>
-<div class="cell border-box-sizing text_cell rendered">
-<div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="The-10,000-Hour-Rule">The 10,000 Hour Rule<a class="anchor-link" href="#The-10,000-Hour-Rule">&#182;</a></h1><blockquote><p>“The master has failed more times than the beginner has even tried.”</p>
-<p>--Stephen McCranie</p>
-</blockquote>
-
-</div>
-</div>
-</div></section><section>
-<div class="cell border-box-sizing text_cell rendered">
-<div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="Learning-is-all-about-generalization">Learning is all about generalization<a class="anchor-link" href="#Learning-is-all-about-generalization">&#182;</a></h1><blockquote><p>All generalizations are false, including this one.</p>
-<p>--Mark Twain</p>
-</blockquote>
-
-</div>
-</div>
-</div></section><section>
-<div class="cell border-box-sizing text_cell rendered">
-<div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
 <h1 id="Making-Mistakes-is-essential">Making Mistakes is essential<a class="anchor-link" href="#Making-Mistakes-is-essential">&#182;</a></h1><blockquote><p>I will close my door to shut out all possible errors.</p>
 <p>“But how am I to enter in?” cried Truth.</p>
 <p>--Tagore</p>
-</blockquote>
-
-</div>
-</div>
-</div></section><section>
-<div class="cell border-box-sizing text_cell rendered">
-<div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="You-cannot-learn-from-textbook">You cannot learn from textbook<a class="anchor-link" href="#You-cannot-learn-from-textbook">&#182;</a></h1><blockquote><p>“We learn from failure, not from success!”</p>
-<p>--Bram Stoker, Dracula</p>
 </blockquote>
 
 </div>
@@ -13600,6 +13658,26 @@ AAD4AOENAAAAAHyA8AYAAAAAPkB4AwAAAAAfILwBAAAAgA8Q3gAAAADABwhvAAAAAOADhDcAAAAA
 <h1 id="Q&amp;A">Q&amp;A<a class="anchor-link" href="#Q&amp;A">&#182;</a></h1><blockquote><p>“Freedom is not worth having if it does not include the freedom to make mistakes.”</p>
 <p>--Mahatma Gandhi</p>
 </blockquote>
+
+</div>
+</div>
+</div></section><section>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<ul>
+<li>萬事萬物都有缺口， 缺口就是光的入口 -Leonard Cohen</li>
+<li>我們都千瘡百孔，所以光才找得到入口 - 海明威</li>
+<li>我緊閉門扉把錯誤擋在外，真理高呼：「那我如何進得來？」 -泰戈爾</li>
+<li>大師失敗的次數比新手嘗試的次數還多 -Stephen McCranie</li>
+<li>犯錯就是真理之門 -James Joyce</li>
+<li>要等到能做到無可挑剔時才開始，那只能一事無成. -Cardinal Newman</li>
+<li>成功之路無完工之時 -Lily Tomlin</li>
+<li>一日無過可改，即一日無步可進 -了凡四訓</li>
+<li>一個人從不犯錯是因為他不嘗試新事物。 -愛因斯坦</li>
+</ul>
 
 </div>
 </div>
